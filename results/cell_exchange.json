@@ -1,0 +1,129 @@
+{
+ "closure": {
+  "rest": {
+   "V0": -68.44531973313795,
+   "V0_without_channels": -68.46153846153847,
+   "g_NaL_nS": 2.142857142857143,
+   "g_KL_nS": 7.857142857142858,
+   "I_p_pA": 84.68231299464561,
+   "occupancy": 0.17330236788619074,
+   "I_max_pA": 488.63909955493085,
+   "kna": 10.0,
+   "kk": 1.5,
+   "E_L_effective": -68.46823129946456,
+   "na_balance_pA": 5.684341886080802e-14,
+   "k_balance_pA": 0.0
+  },
+  "tau_derived": {
+   "pC_per_mM": 38492.078421242404,
+   "dI_pump3_dNa_pA_per_mM": 10.665322590198725,
+   "dI_NaL_dNa_pA_per_mM": 2.571992892055844,
+   "tau_s": 2907.846267836057,
+   "corner_Hz": 5.473292892142276e-05,
+   "dI_pump_net_dNa_pA_per_mM": 3.5551075300662416
+  },
+  "tau_full": {
+   "jacobian_per_s": [
+    [
+     -0.0003117945561982471,
+     9.36553887624808e-06
+    ],
+    [
+     0.0003117945562093228,
+     -9.365538898399428e-06
+    ]
+   ],
+   "eigenvalues_per_s": [
+    -0.0003211600950754641,
+    -2.1182394962962307e-14
+   ],
+   "return_tau_s": 3113.7118693560806,
+   "return_mode_NaK": [
+    -0.9999999998965403,
+    1.0
+   ],
+   "conserved_mode_NaK": [
+    -0.030037531735895656,
+    -1.0
+   ],
+   "second_eigenvalue_per_s": -2.1182394962962307e-14
+  },
+  "concentrations_mM": {
+   "Na_i": 22.19553382900888,
+   "Na_o": 145.0,
+   "K_i": 117.28550029833178,
+   "K_o": 4.0
+  },
+  "diam_um": 79.78845608028654,
+  "area_cm2": 0.0002
+ },
+ "spike": {
+  "frozen": {
+   "read_over": "one spontaneous cycle, trough to trough",
+   "V_start": -85.48390683391402,
+   "V_peak": 47.96261060097298,
+   "amplitude_mV": 133.446517434887,
+   "window_ms": [
+    373.5199999997328,
+    445.69999999966717
+   ],
+   "charges_pC": {
+    "Na_channels_in": 83.95795080072439,
+    "K_channels_out": 88.1026446912223,
+    "stimulus_in": 0.0,
+    "leak_out": -4.144691590621465
+   },
+   "inward_minus_outward_pC": -2.2998764421799933e-06,
+   "C_dV_over_window_pC": -1.5313559913465724e-06,
+   "identity_residual_relative": 9.153635165030614e-09,
+   "rho": 3.1457527860062093,
+   "voltage_reads_fraction_of_Na_charge": 0.31788893407278257,
+   "Na_load_mM": 0.002181174783079289,
+   "period_ms": 72.17672733537421
+  },
+  "live": {
+   "read_over": "evoked spike, rest to rest",
+   "V_start": -68.4453197323575,
+   "V_peak": 48.60390520441512,
+   "amplitude_mV": 117.04922493677262,
+   "window_ms": [
+    50.00000000000713,
+    52.070000000008186
+   ],
+   "charges_pC": {
+    "Na_channels_in": 77.65222155836632,
+    "K_channels_out": 80.87781067747909,
+    "stimulus_in": 3.9900000000020412,
+    "Na_leak_in": 0.3565291785975443,
+    "K_leak_out": 0.9697146968992295,
+    "pump_net_out": 0.17529621955984556
+   },
+   "inward_minus_outward_pC": -0.024070856972258525,
+   "C_dV_over_window_pC": -0.014481654717670267,
+   "identity_residual_relative": 0.00012348909100276873,
+   "rho": 3.3170754270398763,
+   "voltage_reads_fraction_of_Na_charge": 0.3014703831719587,
+   "Na_load_mM": 0.002017355901351194
+  }
+ },
+ "train": {
+  "spikes_counted": 20,
+  "Na_i_peak_rise_mM": 0.04084561384782859,
+  "K_i_fall_mM": 0.04293227537897337,
+  "pump_rise_pA": 0.14510936440990463,
+  "V_min_after_mV": -68.4630198547195,
+  "V_rest_mV": -68.44531973313795,
+  "tau_Na_return_s": 3105.972471548015,
+  "tau_pump_return_s": 3107.1585341325467,
+  "pump_rise_per_spike_pA": 0.007255468220495232
+ },
+ "rest": {
+  "V_start": -68.44531973313795,
+  "V_end": -68.4453197320924,
+  "V_max_drift_mV": 1.5758843119328958e-09,
+  "Na_i_drift_mM": 2.0691004465334117e-11,
+  "K_i_drift_mM": 1.340083599643549e-11,
+  "pump_pA": 84.68231299458458,
+  "spikes": 0
+ }
+}

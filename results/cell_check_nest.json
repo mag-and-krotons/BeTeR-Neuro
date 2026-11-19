@@ -1,0 +1,17 @@
+{
+ "input": {
+  "rate_e_Hz": 500.0,
+  "rate_i_Hz": 400.0,
+  "w_e_nS": 6.0,
+  "w_i_nS": 20.0,
+  "t_ms": 5000.0
+ },
+ "spikes_nest": 42,
+ "peaks_nest": 42,
+ "peaks_neuron": 42,
+ "peak_time_diff_ms_max": 2.571141521912068e-09,
+ "peak_time_diff_ms_median": 6.988329914747737e-10,
+ "v_diff_subthreshold_mV_max": 0.03190560344616955,
+ "v_diff_subthreshold_mV_rms": 0.0005645330761230494,
+ "rest_mV": -60.0
+}

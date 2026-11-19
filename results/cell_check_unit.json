@@ -1,0 +1,16 @@
+{
+ "f_Hz": 0.25,
+ "spikes_nest": 1193,
+ "spikes_neuron": 1172,
+ "coincident_within_1ms": 1161,
+ "median_offset_ms": 0.22030280085073173,
+ "nest_rate_mod_Hz_IQ": [
+  12.914829989803037,
+  1.0193537358493987
+ ],
+ "neuron_rate_mod_Hz_IQ": [
+  12.698457993183077,
+  1.0402777900070141
+ ],
+ "final_Na_i_rise_mM": null
+}

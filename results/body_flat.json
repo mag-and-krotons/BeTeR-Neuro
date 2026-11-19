@@ -1,0 +1,192 @@
+{
+ "duration_s": 300.0,
+ "seed": 1,
+ "flat_control": true,
+ "build_s": 3.3815219402313232,
+ "sim_s": 2259.4901888370514,
+ "cfg": {
+  "dt": 0.1,
+  "threads": 2,
+  "w_e": 6.0,
+  "w_i": 67.0,
+  "aff": {
+   "baroA": [
+    20,
+    "heart",
+    12.5
+   ],
+   "baroC": [
+    40,
+    "heart",
+    250.0
+   ],
+   "stretch": [
+    40,
+    "breath",
+    10.0
+   ],
+   "gastric": [
+    40,
+    "stomach",
+    500.0
+   ]
+  },
+  "aff_gain_hz": 1200.0,
+  "aff_bg": [
+   300.0,
+   500.0
+  ],
+  "nts": {
+   "cardio": [
+    "baroA",
+    "baroC"
+   ],
+   "resp": [
+    "stretch"
+   ],
+   "gastric": [
+    "gastric"
+   ]
+  },
+  "nts_size": [
+   120,
+   30
+  ],
+  "nts_in_from_aff": 10,
+  "nts_rec": [
+   20,
+   10
+  ],
+  "nts_cross": 4,
+  "relay_size": 150,
+  "relay_in": 30,
+  "ctx_size": [
+   1600,
+   400
+  ],
+  "ctx_K": [
+   80,
+   20
+  ],
+  "insula_in": 20,
+  "eff_size": 40,
+  "eff_in_nts": 10,
+  "eff_in_insula": 10,
+  "front_gain_hz": 800.0,
+  "front_hold_s": 0.5,
+  "bg": {
+   "nts": [
+    300.0,
+    500.0
+   ],
+   "relay": [
+    300.0,
+    500.0
+   ],
+   "ctx": [
+    150.0,
+    600.0
+   ],
+   "eff": [
+    250.0,
+    500.0
+   ]
+  },
+  "delays": {
+   "nts_relay": 10.0,
+   "relay_insula": 5.0,
+   "ctx": 1.5,
+   "nts_eff": 2.0,
+   "insula_eff": 15.0,
+   "local": 1.0
+  },
+  "multimeter": {
+   "interval": 5.0,
+   "n_per_group": 30
+  }
+ },
+ "gids": {
+  "aff_baroA": [
+   1,
+   20
+  ],
+  "aff_baroC": [
+   43,
+   82
+  ],
+  "aff_stretch": [
+   125,
+   164
+  ],
+  "aff_gastric": [
+   207,
+   246
+  ],
+  "nts_cardio_E": [
+   289,
+   408
+  ],
+  "nts_cardio_I": [
+   409,
+   438
+  ],
+  "nts_resp_E": [
+   443,
+   562
+  ],
+  "nts_resp_I": [
+   563,
+   592
+  ],
+  "nts_gastric_E": [
+   597,
+   716
+  ],
+  "nts_gastric_I": [
+   717,
+   746
+  ],
+  "relay": [
+   751,
+   900
+  ],
+  "ctx_E": [
+   903,
+   2502
+  ],
+  "ctx_I": [
+   2503,
+   2902
+  ],
+  "eff": [
+   3307,
+   3346
+  ]
+ },
+ "carrier_sources": {
+  "heart": "observed ECG (NeuroKit2 bio_resting_8min_100hz)",
+  "breath": "observed respiration belt (same record)",
+  "stomach": "constructed slow wave, 3/min (no EGG reachable)"
+ },
+ "carrier_frequencies_Hz": {
+  "heart": 0.9602196309674826,
+  "breath": 0.13375813796608202,
+  "stomach": 0.050384549817272896
+ },
+ "rates_Hz": {
+  "aff_baroA": 2.5068333333333332,
+  "aff_baroC": 2.4951666666666665,
+  "aff_stretch": 36.94,
+  "aff_gastric": 27.133666666666667,
+  "nts_cardio_E": 1.8525,
+  "nts_cardio_I": 0.8782222222222222,
+  "nts_resp_E": 8.343472222222223,
+  "nts_resp_I": 7.0617777777777775,
+  "nts_gastric_E": 6.602722222222222,
+  "nts_gastric_I": 4.762777777777778,
+  "relay": 3.501977777777778,
+  "ctx_E": 4.6183145833333334,
+  "ctx_I": 2.8199916666666667,
+  "eff": 1.6616666666666666
+ }
+}
